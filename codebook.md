@@ -4,7 +4,7 @@
 Tidy data from raw data collected in the project "Human Activity Recognition Using Smartphones Dataset". The study was conducted by George L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio and Luca Oneto. Description of the raw data in the "Study design and data processing" section below.
 Only meausurements estimated from mean and standard deviation were kept in the tidy dataset. Each row has averaged variable by subject and activity. Subjects are sequantially numebered from 1 to 30. Activitity has 6 types: walking, walking upstairs, walking downstairs, sitting, standing and laying.
 
-##Creating the tidy datafile
+## Creating the tidy datafile
 1. Download the data from [source](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 2. Merge subject, measurement and type of activity information in one dataset.
 3. Keep only measurement indicators of means and standard deviations.
@@ -12,7 +12,7 @@ Only meausurements estimated from mean and standard deviation were kept in the t
 4. Reshape the dataset to compute averages of the relevant measures by subject and activity.
 5. Save tidy dataset.
 
-##Tidy data description
+## Tidy data description
 The final tidy dataset 180 observations and 68 variables. Each row has averaged variables for each subject and each activity.
 
 ### Variables
